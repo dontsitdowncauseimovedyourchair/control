@@ -28,7 +28,7 @@ pause(2);
 % =========================================
 
 % Valores de entrada que se probaran
-U_values = [-1.5 -1.4 -1.3 -1.2 -1.1 1 0 1.1 1.2 1.3 1.4 1.5];
+U_values = linspace(-1.5, 1.5, 150);
 
 % Tiempo que se mantiene cada entrada
 tiempoEspera = 3;       % segundos
